@@ -1,14 +1,12 @@
 import React from "react";
 import "./Login.css";
+import { loginUrl } from "./spotify";
 
 function Login() {
   return (
     <div className='login'>
-      <img
-        src='/vinnytsia-ukraine-may-spotify-logo-dark-mode-cool-music-service-offers-legal-streaming-music-spotify-logo-dark-mode-218033923.jpg'
-        alt='spotify'
-      />
-      <a>Login with spotify</a>
+      <img src='/Spotify_Logo_RGB_White.png' alt='spotify' />
+      <a href={loginUrl}>LOGIN WITH SPOTIFY</a>
     </div>
   );
 }
